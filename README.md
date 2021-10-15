@@ -1,1 +1,1 @@
-# https://debaev.github.io/cssMemSlider/cssMemSlider/index.html
+# https://debaev.github.io/cssMemSlider/cssMemSlider/index.html 
