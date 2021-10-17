@@ -8,7 +8,9 @@ body {
 	background: #000;
 }
 .mem-slider {
-	padding: 20px 200px;
+	max-width: 60rem;
+	padding-top: 20px;
+	margin: 0 auto;
 }
 
 .mem-slider__container {
@@ -123,8 +125,9 @@ body {
 
 @media (max-width: 991px) {
 	.mem-slider {
-		padding: 20px 100px;
-	}
+		max-width: 50rem;
+		padding: 20px;
+  }
 	.container {
 		flex-direction: column;
 	}
@@ -143,7 +146,7 @@ body {
 
 @media (max-width: 728px) {
   .mem-slider {
-    padding: 20px 50px;
+		max-width: 30rem;
   }
 
   .mem-slider__container .slider_img {
