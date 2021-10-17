@@ -106,3 +106,17 @@ body {
 #s4:target~.slider {
   transform: translateX(-300%);
 }
+
+
+#s1:target~.container .description-box .description-inner {
+    transform: translateX(0%);
+}
+#s2:target~.container .description-box .description-inner {
+    transform: translateX(-100%);
+}
+#s3:target~.container .description-box .description-inner {
+    transform: translateX(-200%);
+}
+#s4:target~.container .description-box .description-inner {
+    transform: translateX(-300%);
+}
