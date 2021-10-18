@@ -46,6 +46,10 @@ body {
   transform: translateX(0%);
 }
 
+.bullets {
+  display: flex;
+}
+
 .description {
 	min-width: 100.1%;
 	color: #fff;
@@ -61,36 +65,44 @@ body {
 	align-items: center;
 }
 .mem-slider__container .bullets a {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+}
+
+.round {
   width: 30px;
   height: 30px;
   border-radius: 50%;
   background: rgb(9, 140, 255);
   transition: 0.3s;
+
 }
 
-.mem-slider__container .bullets a:hover {
+.mem-slider__container .bullets .round:hover {
   background: rgba(0, 51, 255, 0.5);
 }
 
-.bullets a:hover {
+.bullets a:hover .round{
   background: #fff !important;
 	border: 2px solid #fff !important;
 }
 
-#s1:target~.container .bullets a:first-child {
+#s1:target~.container .bullets a:first-child .round{
 	border: 2px solid rgb(9, 140, 255);
   background: none !important;
 }
-#s2:target~.container .bullets a:nth-child(2) {
+#s2:target~.container .bullets a:nth-child(2) .round{
 	border: 2px solid rgb(9, 140, 255);
   background: none !important;
 }
-#s3:target~.container .bullets a:nth-child(3) {
+#s3:target~.container .bullets a:nth-child(3) .round{
 	border: 2px solid rgb(9, 140, 255);
   background: none !important;
 }
-#s4:target~.container .bullets a:last-child {
+#s4:target~.container .bullets a:last-child .round{
 	border: 2px solid rgb(9, 140, 255);
   background: none !important;
 }
